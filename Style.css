@@ -1,0 +1,116 @@
+body{
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#White-box{
+    background:#FFFDFD;
+    width: 50%;
+    padding:50px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#heading{
+    font-size: 18pt;
+}
+#listDiv{
+    background: #E0EDFA;
+    width: 70%;
+    border: solid rgba(139, 121, 121, 0.6) 1px;
+    border-radius: 9px;
+    padding: 20px  30px 90px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+#addTitleField{
+    border: none;
+    border-radius: 5px;
+    width: 78%;
+    padding:10px 10px 10px 10px;
+}
+#addButton{
+    background: #6FDA9A;
+    border-radius: 5px;
+    margin-left: 1.5%;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    width: 15%;
+
+}
+ul{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+li{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.taskBox{
+    width: 100%;
+    margin-top: 20px;
+}
+.taskTitleDiv{
+    width: 100%;
+    background: #FFFDFD;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 10px 8px 10px;
+}
+.taskTitle{
+    max-width: 70%;
+    overflow: scroll;
+    color: rgba(71, 59, 59, 0.7);
+    font-size: 10pt;
+}
+.taskTitle::-webkit-scrollbar {
+  display: none;
+}
+#taskButton{
+    float: right;
+    display: flex;
+}
+.editButton{
+    background: rgb(111, 192, 218);
+    border-radius: 5px;
+    color:  #FFFDFD;
+    border: none;
+    height: 25px;
+    font-size: 8pt;
+    width: 50px;
+    margin-right: 5px;
+}
+.deleteButton{
+    background: rgb(218, 111, 162);
+    border-radius: 5px;
+    color:  #FFFDFD;
+    border: none;
+    height:25px;
+    font-size: 8pt;
+    width: 50px;
+    margin-right: 12px;
+    
+}
+
